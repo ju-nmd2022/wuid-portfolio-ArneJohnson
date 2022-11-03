@@ -1,0 +1,56 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+p {
+    font-size: 18px;
+    margin-right: 20vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: disc;
+    text-align: left;
+  }
+
+.bar {
+    width: 100%;
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 14px;
+}
+.footer {
+    bottom: 0;
+    float: left;
+    text-align: center;
+}
+
+img {
+    height: 80vh;
+    float: left;
+}
+.logo {
+    float: right;
+    height: 80px;
+    position: absolute;
+    right: 12vw;
+}
+
+/*Fade in text*/
+.fade-in {
+  animation: fade-animation 1s 0.5s backwards;  
+}
+@keyframes fade-animation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
