@@ -24,7 +24,7 @@ body {
   grid-row-gap: 10px;
   grid-template-areas:
     "header header header header"
-    ". content card svg"
+    ". content card ."
     "footer footer footer footer";
 }
 
@@ -43,10 +43,7 @@ body {
 
 .card {
   grid-area: card;
-}
-
-.svg {
-  grid-area: svg;
+  margin-right: 5vw;
 }
 
 .footer {
