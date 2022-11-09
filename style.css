@@ -1,57 +1,140 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0px;
-    font-family: Helvetica, sans-serif;
-    font-weight: lighter;
-    text-align: justify;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+
+  background: linear-gradient(
+      135deg,
+      rgb(255, 239, 233) 0%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(225deg, rgb(226, 241, 243) 0%, rgba(255, 255, 255, 0) 50%);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas:
+    "header header header header"
+    ". content card svg"
+    "footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: rgba(0, 0, 0, 0);
+  color: #111111;
+  font-size: 20px;
+  padding: 14px;
+  min-height: 10vh;
+}
+
+.content {
+  grid-area: content;
+}
+
+.card {
+  grid-area: card;
+}
+
+.svg {
+  grid-area: svg;
+}
+
+.footer {
+  grid-area: footer;
+  height: fit-content;
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 28px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    display: none;
+  }
+}
+
+.flex-container > div > p {
+  margin: 10px;
+  padding: 16px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.icon {
+  width: 8rem;
+  height: 8rem;
+  margin: 12px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-ul {
-    list-style-type: disc;
-    list-style-position: inside;
-    text-align: left;
+/*Animations*/
+.slide-right {
+  animation: slide-animation 1s backwards;
+}
+
+.hlink {
+  animation: hover-out 1s backwards;
+  padding: 10px;
+}
+
+.hlink:hover {
+  animation: hover-in 0.5s forwards;
+}
+
+@keyframes slide-animation {
+  0% {
+    left: 110vw;
   }
-
-.bar {
-    width: 100%;
-    background-color: #222222;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 14px;
-}
-.footer {
-    bottom: 0;
-    float: left;
-    text-align: center;
+  100% {
+    left: 90vw;
+  }
 }
 
-img {
-    height: 80vh;
-    float: left;
-    padding-right: 20px;
-}
-.logo {
-    float: right;
-    height: 80px;
-    position: absolute;
-    right: 12vw;
+@keyframes hover-in {
+  from {
+    font-size: 100%;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    font-size: 140%;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
 }
 
-/*Fade in text*/
-.fade-in {
-  animation: fade-animation 1s 0.5s backwards;  
-}
-@keyframes fade-animation {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+@keyframes hover-out {
+  from {
+    font-size: 140%;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+  to {
+    font-size: 100%;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
