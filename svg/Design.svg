@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60.39">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .1px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #221f1f;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        font-size: 1px;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #231f20;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-7 {
+        fill: #6fbf55;
+      }
+
+      .cls-5 {
+        font-size: .67px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-6 {
+        font-size: 2px;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="M19.46,21.73c-2.69,0-4.87-2.18-4.87-4.87"/>
+    <path class="cls-3" d="M14.59,16.86c0-.37,.04-.73,.12-1.08"/>
+    <path class="cls-3" d="M14.71,15.78c.3-1.88,1.31-6.01,4.74-10.64"/>
+    <line class="cls-2" x1="17.02" y1="24.79" x2="17.02" y2="31.81"/>
+    <path class="cls-3" d="M19.46,21.73c2.69,0,4.87-2.18,4.87-4.87"/>
+    <path class="cls-3" d="M24.32,16.86c0-.37-.04-.73-.12-1.08"/>
+    <path class="cls-3" d="M24.2,15.78c-.3-1.88-1.31-6.01-4.74-10.64"/>
+    <line class="cls-2" x1="21.89" y1="24.79" x2="21.89" y2="31.81"/>
+    <path class="cls-3" d="M21.89,31.81c4.87,1.11,8.51,5.47,8.51,10.68,0,6.05-4.9,10.95-10.95,10.95s-10.95-4.9-10.95-10.95c0-5.21,3.64-9.57,8.51-10.67"/>
+    <path class="cls-3" d="M11.03,20.83s2.34,4.23,8.43,4.23"/>
+    <path class="cls-3" d="M27.88,20.83s-2.21,4.23-8.43,4.23"/>
+  </g>
+  <path class="cls-7" d="M23.17,40.83c-2.41,.42-3.68,2.5-5.48,3.18s-5.21,1.22-7.75-2.65c-1.39,5.71,4.21,10.96,9.23,10.96,5.34,0,9.44-3.9,10-8.59,.03-.25,.02-.42,0-.66-1.75-2.23-4.42-2.52-6.01-2.24Z"/>
+  <circle class="cls-1" cx="43.05" cy="27.36" r="10.5"/>
+  <rect class="cls-1" x="32.55" y="16.86" width="21" height="21"/>
+  <circle class="cls-1" cx="60.05" cy="23.36" r="6.5"/>
+  <rect class="cls-1" x="53.55" y="16.86" width="13" height="13"/>
+  <circle class="cls-1" cx="62.55" cy="33.86" r="4"/>
+  <rect class="cls-1" x="58.55" y="29.86" width="8" height="8"/>
+  <circle class="cls-1" cx="56.05" cy="35.36" r="2.5"/>
+  <rect class="cls-1" x="53.55" y="32.86" width="5" height="5"/>
+  <circle class="cls-1" cx="55.05" cy="31.36" r="1.5"/>
+  <rect class="cls-1" x="53.55" y="29.86" width="3" height="3"/>
+  <text class="cls-6" transform="translate(42.06 28.27)"><tspan x="0" y="0">21</tspan></text>
+  <text class="cls-6" transform="translate(58.94 23.9)"><tspan x="0" y="0">13</tspan></text>
+  <text class="cls-6" transform="translate(62.06 34.48)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-4" transform="translate(55.78 35.61)"><tspan x="0" y="0">5</tspan></text>
+  <text class="cls-4" transform="translate(54.86 31.75)"><tspan x="0" y="0">3</tspan></text>
+  <circle class="cls-1" cx="19.46" cy="42.62" r="10.5"/>
+  <text class="cls-6" transform="translate(18.46 43.53)"><tspan x="0" y="0">21</tspan></text>
+  <circle class="cls-1" cx="19.46" cy="14" r="10.5"/>
+  <text class="cls-6" transform="translate(18.46 14.9)"><tspan x="0" y="0">21</tspan></text>
+  <circle class="cls-1" cx="19.46" cy="17.58" r="4"/>
+  <text class="cls-6" transform="translate(18.97 18.2)"><tspan x="0" y="0">8</tspan></text>
+  <circle class="cls-1" cx="19.46" cy="11.08" r="2.5"/>
+  <text class="cls-4" transform="translate(19.19 11.33)"><tspan x="0" y="0">5</tspan></text>
+  <circle class="cls-1" cx="57.55" cy="30.86" r="1"/>
+  <rect class="cls-1" x="56.55" y="29.86" width="2" height="2"/>
+  <text class="cls-5" transform="translate(57.42 31.12)"><tspan x="0" y="0">2</tspan></text>
+  <circle class="cls-1" cx="18.55" cy="31.12" r="1"/>
+  <text class="cls-5" transform="translate(18.42 31.38)"><tspan x="0" y="0">2</tspan></text>
+  <circle class="cls-1" cx="20.46" cy="31.12" r="1"/>
+  <text class="cls-5" transform="translate(20.33 31.38)"><tspan x="0" y="0">2</tspan></text>
+  <circle class="cls-1" cx="15.24" cy="37.86" r="6.5"/>
+  <text class="cls-6" transform="translate(14.14 38.4)"><tspan x="0" y="0">13</tspan></text>
+  <circle class="cls-1" cx="24.2" cy="47.25" r="6.5"/>
+  <text class="cls-6" transform="translate(23.09 47.79)"><tspan x="0" y="0">13</tspan></text>
+</svg>

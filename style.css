@@ -55,12 +55,15 @@ body {
 
 .image {
   grid-area: image;
-  margin-right: 5vw;
+  margin-right: 10vw;
+}
+
+.image img {
+  min-width: 25vw;
 }
 
 .card {
   grid-area: card;
-  margin-right: 10vw;
 }
 
 .card img {
