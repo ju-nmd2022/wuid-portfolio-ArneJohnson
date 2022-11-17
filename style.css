@@ -72,7 +72,7 @@ a {
 
 .hero {
   grid-area: hero;
-  height: 40vh;
+  height: 50vh;
   background: linear-gradient(
     135deg,
     rgba(2, 209, 250, 0.226) 0%,
